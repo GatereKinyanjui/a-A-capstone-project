@@ -19,51 +19,55 @@
         - Appropriate labels for the above
         - 1 button -->
 
-    <div class="navbar1">
+    <div class="navbar">
       <a href="index.html">Home</a>
       <a href="sign_up.html">Sign Up</a>
       <a href="others.html">Others</a>
       <a href="view.html">View</a>
     </div>
 
-    <form action="url-handler" method="post" class="form">
-      <fieldset>
-        <legend>Sign Up</legend>
-        <div>
-          <input
-            type="text"
-            id="firstName"
-            name="first_name"
-            placeholder="First Name..."
-          />
-          <label for="firstName">First Name</label>
-        </div>
+    <div class="form">
+      <form action="url-handler" method="post" class="form">
+        <fieldset>
+          <legend>Sign Up</legend>
+          <div>
+            <input
+              type="text"
+              id="firstName"
+              name="first_name"
+              placeholder="First Name..."
+            />
+            <label for="firstName">First Name</label>
+          </div>
 
-        <div>
-          <input
-            type="text"
-            id="secondName"
-            name="second_name"
-            placeholder="Second Name..."
-          />
-          <label for="secondName">Second Name</label>
-        </div>
+          <div>
+            <input
+              type="text"
+              id="secondName"
+              name="second_name"
+              placeholder="Second Name..."
+            />
+            <label for="secondName">Second Name</label>
+          </div>
 
-        <div>
-          <input type="checkbox" name="terms_and_conditions"
-          id="termsAndConditions>
-          <label for="termsAndConditions">Agree to terms and conditions</label>
-        </div>
+          <div>
+            <input type="checkbox" name="terms_and_conditions"
+            id="termsAndConditions>
+            <label for="termsAndConditions"
+              >Agree to terms and conditions</label
+            >
+          </div>
 
-        <div>
-          <textarea id="comments" name="comments"></textarea>
-          <label for="comments">Comments</label>
-        </div>
+          <div>
+            <textarea id="comments" name="comments"></textarea>
+            <label for="comments">Comments</label>
+          </div>
 
-        <div>
-          <button type="submit">Submit</button>
-        </div>
-      </fieldset>
-    </form>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>

@@ -1,19 +1,95 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #A7A0A0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #a7a0a0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 50px;
+  box-shadow: black;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.capstone {
+  display: flex;
+  font-size: 70px;
+  font-weight: 100;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.section > h2 {
+  color: teal;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 10rem;
+}
+
+h2:hover {
+  color: darkviolet;
+  
+
+}
+
+.home-image {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:active {
+  background-color: ;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    font-style: oblique;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-style: oblique;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+}
 
+fieldset {
+  border: 0;
+}
+
+legend {
+  color: blueviolet;
+  font-style: italic;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+[type="text"] {
+  margin: 10px;
+  border: 1px solid teal;
+  padding: 8px;
+  border-radius: 5px;
+}
