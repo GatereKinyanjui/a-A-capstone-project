@@ -37,7 +37,7 @@
               name="first_name"
               placeholder="First Name..."
             />
-            <label for="firstName">First Name</label>
+            <label for="firstName"></label>
           </div>
 
           <div>
@@ -47,23 +47,25 @@
               name="second_name"
               placeholder="Second Name..."
             />
-            <label for="secondName">Second Name</label>
+            <label for="secondName"></label>
           </div>
 
-          <div>
-            <input type="checkbox" name="terms_and_conditions"
-            id="termsAndConditions>
-            <label for="termsAndConditions"
-              >Agree to terms and conditions</label
-            >
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="terms_and_conditions"
+              id="termsAndConditions"
+            />
+
+            <label class="terms">Agree to terms and conditions</label>
           </div>
 
-          <div>
+          <div class="comments">
             <textarea id="comments" name="comments"></textarea>
-            <label for="comments">Comments</label>
+            <label class="comments-label">This is me</label>
           </div>
 
-          <div>
+          <div class="button">
             <button type="submit">Submit</button>
           </div>
         </fieldset>

@@ -39,8 +39,6 @@
 
 h2:hover {
   color: darkviolet;
-  
-
 }
 
 .home-image {
@@ -53,7 +51,6 @@ h2:hover {
 
 a {
   text-decoration: none;
-
 }
 
 a:active {
@@ -72,8 +69,9 @@ h2 {
 }
 
 .form {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  height: auto;
 }
 
 fieldset {
@@ -81,7 +79,7 @@ fieldset {
 }
 
 legend {
-  color: blueviolet;
+  color: darkviolet;
   font-style: italic;
   font-size: large;
   margin-bottom: 10px;
@@ -89,7 +87,75 @@ legend {
 
 [type="text"] {
   margin: 10px;
-  border: 1px solid teal;
+  border: 1px solid blueviolet;
   padding: 8px;
   border-radius: 5px;
+  width: 250px;
+}
+
+.checkbox {
+  display: flex;
+  margin: auto;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+[type="checkbox"] {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #d5d5d5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.terms {
+  color: blueviolet;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px;
+  margin: auto;
+}
+
+textarea {
+  margin: 10px;
+  border: 1px solid blueviolet;
+  padding: 8px;
+  margin-left: 0;
+  border-radius: 5px;
+  width: 250px;
+  height: 100px;
+}
+
+.comments-label {
+  padding: 5px;
+  padding-left: 0;
+  color: blueviolet;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: grey;
+  font-size: 15px;
+  width: 100px;
+  border: black 1px;
+}
+
+.button {
+  display: flex;
+  margin: auto;
+  padding: 16px;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+[type="submit"] {
+  color: blueviolet;
 }
